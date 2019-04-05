@@ -1,4 +1,4 @@
-var word = 'beautiful';
+var word = 'tacocat';
 var word2 = "Madam I'm Adam";
 
 function palindrome(word){
@@ -8,12 +8,8 @@ function palindrome(word){
         newWord += word[i];
     }
     console.log(newWord);
-    if (newWord == word){
-        console.log("true")
-    }
-    else {
-        console.log("false")
-    }
+    
+    console.log(newWord == word)
 } 
 
 palindrome(word)

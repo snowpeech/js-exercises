@@ -1,4 +1,4 @@
-var number = 16;
+var number = 100;
 
 function fizzbuzz(num){
     for (var i=0; i<=num; i++){
