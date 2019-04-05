@@ -1,16 +1,17 @@
-var word = 'tacocati';
+var word = 'tAcocati';
 
 function vowels(word){
+    word = word.toLowerCase();
     var arr1 = [];
     var vowelArr = [];
     arr1 = word.split("");
-    console.log(arr1)
+    //console.log(arr1)
     //find vowels
         function checkVowel(letter) {
             return letter == "a" ||  letter == "e" || letter == "i" || letter == "o" || letter == "u"
         }
     vowelArr = arr1.filter(checkVowel) ;
-    console.log(vowelArr)
+    //console.log(vowelArr)
     console.log(vowelArr.length)
 }
 
